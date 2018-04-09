@@ -6,7 +6,7 @@ Created on Wed Nov 08 15:37:20 2017
 @module type: Ansible module
 @desc: Custom Ansible module IBM WebSphere product suite end to end automated patching
 @team: Web Engineering
-@author: Saravanaprakash Thangavel (1563500)
+@author: Saravanaprakash Thangavel
 @version: 1.0.0 """
 
 ANSIBLE_METADATA = {'status': ['stable_version'],
