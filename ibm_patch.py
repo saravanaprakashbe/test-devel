@@ -115,7 +115,7 @@ class ibm_patch():
     
     
     def _fix_pattern(self):
-        return {"WAS":{"FixPack":"websphere.ND", "iFix":"WS-WAS"}, \
+        return {"WAS":{"FixPack":"websphere.ND", "iFix":"WS-WAS-"}, \
         "IHS":{"FixPack":"websphere.IHS", "iFix":"WS-WASIHS-"}, \
         "PLUGIN":{"FixPack":"websphere.PLG", "iFix":"WS-WASPlugIn"}}  
     
