@@ -5,7 +5,6 @@ Created on Wed Nov 08 15:37:20 2017
 @module name: ibm_patch
 @module type: Ansible module
 @desc: Custom Ansible module for IBM WebSphere product suite end to end automated patching
-@team: Architects
 @author: Saravanaprakash Thangavel
 @version: 1.0.0 """
 
