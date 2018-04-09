@@ -606,8 +606,8 @@ class ibm_patch():
                         msg="Don't specify null/empty auguments in the palybook.",
                         changed=False
             )
-		else:
-			self.ibmPatchImpl(state, fixid, kill, path, bkpath, iimpath, repo)        
+        else:
+            self.ibmPatchImpl(state, fixid, kill, path, bkpath, iimpath, repo)        
         
 #Executing main methind
         
