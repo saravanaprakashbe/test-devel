@@ -1,0 +1,18 @@
+Install
+========
+$BIN/wsadmin.sh -lang jython -c "AdminApp.install(ear_full_path, '[-cluster %s -appname %s ]' % (target_cluster, app_display_name)), AdminConfig.save()"
+
+Variables:
+----------
+target_cluster - Cluster Name 
+app_display_name - Application display name
+ear_full_path - EAR file path (Fully Qualified Path)
+
+
+Uninstall
+==========
+$BIN/wsadmin.sh -lang jython -c "AdminApp.uninstall(app_display_name), AdminConfig.save()"
+
+Variable:
+---------
+app_display_name - Application display name
