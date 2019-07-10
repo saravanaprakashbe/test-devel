@@ -1,6 +1,6 @@
 ﻿param (
-    [Parameter(Mandatory=$true)][string]$fileName1 = "",
-    [Parameter(Mandatory=$true)][string]$fileName2 = ""
+    [string]$fileName1 = "",
+    [string]$fileName2 = ""
 )
 if ((Test-Path -Path $fileName1) -and (Test-Path -Path $fileName2 )) {
     #$fileName = "C:\Users\1563500\Documents\My Data\BitBucket_Repos\Environment_Provisioning\Readme.md"
