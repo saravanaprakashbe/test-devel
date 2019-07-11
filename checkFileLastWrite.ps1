@@ -4,8 +4,8 @@
     [string]$fName2 = "SXT02_10.log*",
     [string]$path2 = ""
 )
-$fileName1 = Get-ChildItem -Path -Filter $fName1 | % { Write-Host $_.FullName }
-$fileName2 = Get-ChildItem -Path -Filter $fName2 | % { Write-Host $_.FullName }
+$fileName1 = Get-ChildItem -Path $path1 -Filter $fName1 | % { Write-Host $_.FullName }
+$fileName2 = Get-ChildItem -Path $path2 -Filter $fName2 | % { Write-Host $_.FullName }
 if ((Test-Path -Path $fileName1) -and (Test-Path -Path $fileName2 )) {
     #$fileName = "C:\Users\1563500\Documents\My Data\BitBucket_Repos\Environment_Provisioning\Readme.md"
     $server = $env:computername
